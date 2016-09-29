@@ -1,0 +1,438 @@
+@font-face{
+    font-family: todo;
+    src: url(../tipografias/AldotheApache.ttf);
+}
+
+@font-face{
+    font-family: texto;
+    src: url(../tipografias/SourceCodePro-Medium.otf);
+}
+
+@font-face{
+    font-family: negrita;
+    src: url(../tipografias/SourceCodePro-Black.otf);
+}
+
+*{
+	margin: 0 auto;
+}
+
+body{
+	background: url(../imagenes/background4.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+#container{
+	width: 1024px;
+	height: 725px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* --------- ESTILOS CABECERA -------- */
+header{
+	width: 1023.981px;
+	height: 91.921px;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+}
+
+
+#logo{
+	display: inline-block;
+	margin-left: 16px;
+	margin-top: 2px;
+}
+
+
+.redes{
+	width: 137px;
+	height: 28.48px;
+	margin-left: 23.833px;
+	display: inline-block;
+	position: absolute;
+	top: 32px;
+}
+
+li{
+	width: 28.334px;
+	height: 28.396px;
+	display: inline-block;
+	position: relative;
+	right: 13px;
+}
+
+.logosRedes{
+	width:28.334px;
+	height:28.396px;
+	border:0px;
+}
+
+
+.logosRedes:hover{
+	box-shadow: 5px 5px 10px black;
+}
+
+
+nav{
+	width: 448.444px;
+	height: 36px;
+	margin-right: 0px;
+	margin-top: -59px;
+}
+
+.menu{
+	width: 88.111px;
+	height: 33.491px;
+	display: inline-block;
+	margin-top: 1.3px;
+	padding-left: 5px;
+}
+
+#menu1{
+	width: 89px;
+	height: 33.491px;
+	display: inline-block;
+	margin-top: 1.3px;
+	padding-left: 5px;
+	background-color: transparent;
+	position: relative;
+	top: 5px;
+	left: -21px;
+}
+
+#menu1:hover{
+	background-color: orange;
+	height:340px;
+}
+
+#menu1 a{
+	font-family: todo;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	position: relative;
+}
+
+#menu1 a:hover{
+	font-size: 20px;
+	color: white;
+	background-color: rgb(36,125,244);
+	padding: 5px;
+}
+
+#submenuArtistas{
+	width: 88.111px;
+	height: 294px;
+	position: absolute;
+	right: -47px;
+	top: 58px;
+	background-color: transparent;
+	opacity:0;
+}
+
+.listaArtistas{
+	width: 128px;
+	height: 40px;
+	display: block;
+	background-color: transparent;
+	position: relative;
+	top: 0px;
+	right: 44px;
+}
+
+
+.listaArtistas a{
+	width: 100px;
+	height: 35px;
+
+
+	background-color: white;
+	font-family: todo;
+	letter-spacing: 0.5px;
+}
+
+.listaArtistas a:hover{
+	margin-left: 0px;
+	padding: 5px;
+}
+
+.menu > a{
+	font-family: todo;
+	color: black;
+	font-size: 23px;
+	position: relative;
+	top: 5px;
+	text-decoration: none;
+}
+
+.menu > a:hover{
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	box-shadow: -5px 5px 5px black;
+
+}
+
+#triangulo {
+    width: 0px;
+	height: 0px;
+	border-bottom: 70px solid transparent;
+	border-top: 0px solid transparent;
+	border-right: 70px solid white;
+	font-size: 0;
+	line-height: 0;
+	position: fixed;
+	z-index: 2;
+	top: 92px;
+	right: 201px;
+}
+/* -------- FIN ESTILOS CABECERA ---------- */
+
+
+
+/* -------- ESTILOS pagina en comun ---------- */
+section{
+	width: 1023.940px;
+	height: 690px;
+	background-color: rgba(85, 228, 11, 0.7);
+	position: relative;
+	top: 0px;
+	z-index: 0;
+	padding-top: 92px;
+}
+
+form{
+	width:690.667px;
+	height:500px;
+	background-color: white;
+	margin-top: 91px;
+	padding: 0px 10px 0px 10px;
+}
+
+#tituloForm{
+	width:295.713px;
+	height:46px;
+	font-size: 40px;
+	font-family: todo;
+	letter-spacing: 2px;
+	color: rgb(48,159,242);
+	margin-left: 242px;
+	position: relative;
+	top: 12px;
+	display: block;
+}
+
+.campoForm{
+	width:635px;
+	height:40px;
+	list-style-type: none;
+	background-color: rgba(25,0,125, 0.2);
+}
+
+#linea1{
+    width: 675px;
+	height: 2px;
+	margin-top: 25px;
+	background-color: rgba(60, 244, 34, 0.2);
+	margin-left: -40px;
+}
+
+#campoDatos1{
+	width: 672px;
+	height: 33.491px;
+	background-color: black;
+	margin-top: 5px;
+	margin-left: -40px;
+	color: white;
+	font-family: todo;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+
+#linea2{
+    width: 675px;
+	height: 2px;
+	margin-top: 25px;
+	background-color: rgba(60, 244, 34, 0.2);
+	margin-left: -40px;
+}
+
+#campoDatos2{
+	width: 672px;
+	height: 33.491px;
+	background-color: black;
+	margin-top: 5px;
+	margin-left: -40px;
+	color: white;
+	font-family: todo;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+
+#linea3{
+    width: 675px;
+	height: 2px;
+	margin-top: 25px;
+	background-color: rgba(60, 244, 34, 0.2);
+	margin-left: -40px;
+}
+
+#campoDatos3{
+	width: 672px;
+	height: 83.491px;
+	background-color: black;
+	margin-top: 5px;
+	margin-left: -40px;
+	color: white;
+	font-family: todo;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+
+#linea4{
+    width: 675px;
+	height: 2px;
+	margin-top: 25px;
+	background-color: rgba(60, 244, 34, 0.3);
+	margin-left: -21px;
+}
+
+#ultimoCampo{
+	width: 672px;
+	height: 83.491px;
+	background-color: transparent;
+	margin-top: 91px;
+	margin-left: -11px;
+	color: white;
+	font-family: todo;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+
+#envio{
+	width: 103.111px;
+	height: 46px;
+	background-color: black;
+	font-family: todo;
+	color: white;
+	font-size: 18px;
+	position: relative;
+	right: -259px;
+	top: 16px;
+}
+
+#linea5{
+    width: 675px;
+	height: 2px;
+	margin-top: 30px;
+	background-color: rgba(60, 244, 34, 0.3);
+	margin-left: -21px;
+}
+
+/* -------- FIN ESTILOS pagina en comun ---------- */
+
+
+/* -------- ESTILOS FOOTER ---------- */
+		footer{
+			width: 1023px;
+			height: 56px;
+			position: fixed;
+			z-index: 2;
+			background-image: url(../imagenes/footer.png);
+			top: 724px;
+			right: 193px;
+		}
+
+		.seccionesFooter{
+			width: 338.3px;
+			height: 27.009px;
+			display: inline-block;
+		}
+
+		h4{
+			font-size: 22px;
+			font-family: todo;
+			position: absolute;
+			right: 918px;
+			top: 8px;
+		}
+
+		h5{
+			width: 220px;
+			font-size: 15px;
+			font-family: todo;
+			position: absolute;
+			right: 755px;
+			top: 32px;
+			letter-spacing: 0.5px;
+		}
+
+		h6{
+			width: 293px;
+			font-size: 29px;
+			font-family: todo;
+			position: absolute;
+			right: 365px;
+			top: 15px;
+		}
+
+		.seccionesFooter ol{
+			width: 298px;
+			height: 27.009px;
+		}
+
+		#registrarse{
+			width: 144.889px;
+			height: 33.491px;
+			background-color: black;
+			position: relative;
+			top: 2px;
+		}
+
+		#registrarse a{
+			text-align: center;
+			color: white;
+			font-family: todo;
+			font-size: 23px;
+			position: relative;
+			right: -17px;
+			top: 6px;
+			text-decoration: none;
+		}
+
+		#registrarse a:hover{
+			text-align: center;
+			color:rgb(60, 244, 34);
+			font-size: 24px;
+			text-decoration: inherit;
+		}
+
+		#entrar{
+			width: 103.111px;
+			height: 33.491px;
+			background-color: black;
+			position: relative;
+			top: 2px;
+		}
+
+		#entrar a{
+			text-align: center;
+			color: white;
+			font-family: todo;
+			font-size: 23px;
+			position: relative;
+			right: -17px;
+			top: 6px;
+			text-decoration: none;
+		}
+
+		#entrar a:hover{
+			text-align: center;
+			color:rgb(255, 244, 34);
+			font-size: 24px;
+			text-decoration: inherit;
+		}
+/* -------- ESTILOS FOOTER ---------- */

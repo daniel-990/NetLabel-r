@@ -1,0 +1,317 @@
+@font-face{
+    font-family: todo;
+    src: url(../tipografias/AldotheApache.ttf);
+}
+
+@font-face{
+    font-family: texto;
+    src: url(../tipografias/SourceCodePro-Medium.otf);
+}
+
+@font-face{
+    font-family: negrita;
+    src: url(../tipografias/SourceCodePro-Black.otf);
+}
+
+*{
+	margin: 0 auto;
+}
+
+body{
+	background-color:black;
+	position:relative;
+	z-index: -2;
+
+}
+
+#container{
+	width: 1024px;
+	height: 768px;
+	background-color: rgba(0, 0, 1, 0.2);
+	position: fixed;
+	display: block;
+	margin-left: 206px;
+}
+
+#logo2{
+	width:511.67px;
+	height:179.173px;
+	display:block;
+	margin-top: 15px;
+}
+
+form{
+	width: 690.667px;
+	height: 526px;
+	position: relative;
+	z-index: 1;
+	top: 27px;
+	background-color: white;
+	padding-top: 2px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+#titulo{
+	width:295.713px;
+	height:46px;
+	background-color: transparent;
+	margin: auto;
+	display: block;
+}
+
+#lineaUno{
+	width: 610px;
+	height: 2px;
+	background-color: rgba(60, 244, 34, 0.4);
+	margin-top: 4px;
+	margin-right: 64px;
+	display: block;
+}
+
+li > h1{
+	width: 280px;
+	height:45px;
+	color:black;
+	font-size: 35px;
+	font-family: todo;
+	letter-spacing: 1px;	
+	margin-right: 13px;	
+}
+
+ul li:nth-child(2){
+	width: 610px;
+	height: 40px;
+	background-color: transparent;
+	margin-right: 404px;
+	margin-top: 0px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+#entradaNombre{
+	width: 298.5px;
+	height: 35px;
+	background-color: black;
+	display: inline-block;
+	color: white;
+	font-family: texto;
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	top: -25px;
+}
+
+#entradaApellido{
+	width: 298.5px;
+	height: 35px;
+	background-color: black;
+	margin-right: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	color: white;
+	font-family: texto;
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	top: -25px;
+}
+
+#lineaDos{
+	width: 610px;
+	height: 2px;
+	background-color: rgba(60, 244, 34, 0.4);
+	margin-top: -16px;
+	margin-right: 64px;
+	display: block;
+}
+
+ul li:nth-child(5){
+	width: 610px;
+	height: 40px;
+	background-color: transparent;
+	margin-right: 404px;
+	margin-top: 6px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+ul li:nth-child(5) input{
+	width: 607px;
+	height: 40px;
+	background-color: black;
+	margin-right: 404px;
+	margin-top: 0px;
+	display: block;
+	position: relative;
+	top: -1px;
+	color: white;
+	font-family: texto;
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#lineaTres{
+	width: 610px;
+	height: 2px;
+	background-color: rgba(60, 244, 34, 0.4);
+	margin-top: 19px;
+	margin-right: 64px;
+	display: block;
+}
+
+ul li:nth-child(7){
+	width: 610px;
+	height: 40px;
+	background-color: transparent;
+	margin-right: 404px;
+	margin-top: 5px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+ul li:nth-child(7) input{
+	width: 607px;
+	height: 40px;
+	background-color: black;
+	margin-right: 404px;
+	margin-top: 0px;
+	display: block;
+	position: relative;
+	top: -1px;
+	color: white;
+	font-family: texto;
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#lineaCuatro{
+	width: 610px;
+	height: 2px;
+	background-color: rgba(60, 244, 34, 0.4);
+	margin-top: 20px;
+	margin-right: 64px;
+	display: block;
+}
+
+ul li:nth-child(9){
+	width: 610px;
+	height: 40px;
+	background-color: transparent;
+	margin-right: 404px;
+	margin-top: 5px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+ul li:nth-child(9) label{
+	width: 81px;
+	height: 34px;
+	background-color: white;
+	font-family: todo;
+	font-size: 38px;
+	position: relative;
+	top: 0px;
+}
+
+ul li:nth-child(9) input{
+	width: 89px;
+	height: 33px;
+	background-color: black;
+	margin-left: 12px;
+	position: relative;
+	top: -9px;
+}
+
+ul li:nth-child(10){
+	width: 610px;
+	height: 54px;
+	background-color: transparent;
+	margin-right: 404px;
+	margin-top: 11px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+ul li:nth-child(10) article{
+	width: 210px;
+	height: 54px;
+	background-color: black;
+	margin-right: 197px;
+	margin-top: 11px;
+	display: block;
+	position: relative;
+	top: 5px;
+}
+
+#boton{ 
+	width: 203.561px;
+	height: 33.491px;
+	background-color: rgb(60,244,34);
+	color: black;
+	font-family: todo;
+	font-size: 30px;
+	position: relative;
+	right: -3px;
+	top: 10px;
+	border: 1px solid transparent;
+ }
+
+#lineaCinco{
+	width: 610px;
+	height: 2px;
+	background-color: rgba(60, 244, 34, 0.4);
+	margin-top: 25px;
+	margin-right: 64px;
+	display: block;
+}
+
+img#footerForm{
+	width:66px;
+	height:76px;
+	border: 1px solid transparent;
+	margin-left: 40px;
+	margin-top: 22px;
+	display: inline-block;
+}
+
+h2{
+	width: 102px;
+	height: 34px;
+	background-color: white;
+	color: black;
+	font-family: todo;
+	font-size: 24px;
+	margin-right: 413px;
+	border: 1px solid transparent;
+	margin-top: -64px;
+}
+
+h4{
+	width: 334px;
+	height: 34px;
+	background-color: white;
+	color: black;
+	font-family: todo;
+	font-size: 24px;
+	margin-right: 42px;
+	border: 1px solid transparent;
+	margin-top: -36px;
+}
+
+
+
+
+
+

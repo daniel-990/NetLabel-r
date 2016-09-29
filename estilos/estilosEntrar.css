@@ -1,0 +1,151 @@
+@font-face{
+    font-family: todo;
+    src: url(../tipografias/AldotheApache.ttf);
+}
+
+@font-face{
+    font-family: texto;
+    src: url(../tipografias/SourceCodePro-Medium.otf);
+}
+
+@font-face{
+    font-family: negrita;
+    src: url(../tipografias/SourceCodePro-Black.otf);
+}
+
+*{
+	margin: 0 auto;
+}
+
+body{
+	background-color:black;
+	position:relative;
+	z-index: -2;
+
+}
+
+#container{
+	width: 1024px;
+	height: 768px;
+	background-color: rgba(0, 0, 1, 0.1);
+	position: fixed;
+	display: block;
+	margin-left: 206px;
+}
+
+#logo2{
+	width:511.67px;
+	height:179.173px;
+	display:block;
+	margin-top: 15px;
+}
+
+#fondo{
+	width: 511.67px;
+	height: 511.424px;
+	display:block;
+	margin-top: 30px;
+	position: relative;
+	z-index: -1;
+}
+
+form{
+	width: 450px;
+	height: 450px;
+	position: relative;
+	z-index: 1;
+	top: -496px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+ul #titulo{
+	width:295.713px;
+	height:46px;
+	background-color: transparent;
+	margin-right: 76px;
+}
+
+li > h1{
+	width: 200px;
+	height:45px;
+	color:black;
+	font-size: 44px;
+	font-family: todo;
+	letter-spacing: 1px;	
+	margin-right: 13px;	
+}
+
+ul li:nth-child(2){
+	width:246px;
+	height:36px;
+	background-color: transparent;
+	margin-right: 101px;
+	margin-top: 185px;
+	display: block;
+}
+
+ul li:nth-child(2) input{
+	width:245px;
+	height:35px;
+	background-color: black;
+	margin-right: 101px;
+	margin-top: 185px;
+	display: block;
+	color:white;
+	font-family: texto;
+	font-size: 20px;
+	border:1px solid black;
+	text-align: center;
+}
+
+ul li:nth-child(3){
+	width:246px;
+	height:36px;
+	background-color: transparent;
+	margin-right: 101px;
+	margin-top: 18px;
+}
+
+ul li:nth-child(3) input{
+	width:245px;
+	height:35px;
+	background-color: black;
+	margin-right: 101px;
+	margin-top: 24px;
+	display: block;
+	color:white;
+	font-family: texto;
+	font-size: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+ul li:nth-child(4){
+	width:246px;
+	height:36px;
+	background-color: transparent;
+	margin-right: 101px;
+	margin-top: 30px;
+}
+
+#boton{
+	width: 202.561px;
+    height: 33.491px;
+    background-color: rgb(60,244,34);
+    color: black;
+    font-family: todo;
+    font-size: 30px;
+    position: relative;
+    right: -19px;
+    top: 1px;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+

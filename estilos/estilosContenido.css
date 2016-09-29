@@ -1,0 +1,246 @@
+/* --------- ESTILOS CABECERA -------- */
+			header{
+				width: 1023.981px;
+				height: 91.921px;
+				background-color: white;
+				position: fixed;
+				z-index: 1;
+			}
+
+
+			#logo{
+				display: inline-block;
+				margin-left: 16px;
+				margin-top: 2px;
+			}
+
+
+			.redes{
+				width: 137px;
+				height: 28.48px;
+				margin-left: 23.833px;
+				display: inline-block;
+				position: absolute;
+				top: 32px;
+			}
+
+			li{
+				width: 28.334px;
+				height: 28.396px;
+				display: inline-block;
+				position: relative;
+				right: 13px;
+			}
+
+			.logosRedes{
+				width:28.334px;
+				height:28.396px;
+				border:0px;
+			}
+
+
+			.logosRedes:hover{
+				box-shadow: 5px 5px 10px black;
+			}
+
+
+			nav{
+				width: 448.444px;
+				height: 36px;
+				margin-right: 0px;
+				margin-top: -59px;
+			}
+
+			.menu{
+				width: 88.111px;
+				height: 33.491px;
+				display: inline-block;
+				margin-top: 1.3px;
+				padding-left: 5px;
+			}
+
+			#menu1{
+				width: 89px;
+				height: 33.491px;
+				display: inline-block;
+				margin-top: 1.3px;
+				padding-left: 5px;
+				background-color: transparent;
+				position: relative;
+				top: 5px;
+				left: -21px;
+			}
+
+			#menu1:hover{
+				background-color: orange;
+				height:340px;
+			}
+
+			#menu1 a{
+				font-family: todo;
+				text-decoration: none;
+				color: black;
+				font-size: 24px;
+				position: relative;
+			}
+
+			#menu1 a:hover{
+				font-size: 20px;
+				color: white;
+				background-color: rgb(36,125,244);
+				padding: 5px;
+			}
+
+			#submenuArtistas{
+				width: 88.111px;
+				height: 294px;
+				position: absolute;
+				right: -47px;
+				top: 58px;
+				background-color: transparent;
+				opacity:0;
+			}
+
+			.listaArtistas{
+				width: 128px;
+				height: 40px;
+				display: block;
+				background-color: transparent;
+				position: relative;
+				top: 0px;
+				right: 44px;
+			}
+
+
+			.listaArtistas a{
+				width: 100px;
+				height: 35px;
+
+
+				background-color: white;
+				font-family: todo;
+				letter-spacing: 0.5px;
+			}
+
+			.listaArtistas a:hover{
+				margin-left: 0px;
+				padding: 5px;
+			}
+
+			.menu > a{
+				font-family: todo;
+				color: black;
+				font-size: 23px;
+				position: relative;
+				top: 5px;
+				text-decoration: none;
+			}
+
+			.menu > a:hover{
+				font-size: 20px;
+				color: white;
+				background-color: black;
+				padding: 5px;
+				box-shadow: -5px 5px 5px black;
+
+			}
+
+			#triangulo {
+			    width: 0px;
+				height: 0px;
+				border-bottom: 70px solid transparent;
+				border-top: 0px solid transparent;
+				border-right: 70px solid white;
+				font-size: 0;
+				line-height: 0;
+				position: fixed;
+				z-index: 2;
+				top: 92px;
+				right: 201px;
+			}
+			/* -------- FIN ESTILOS CABECERA ---------- */
+
+
+
+			/* -------- ESTILOS pagina en comun ---------- */
+			section{
+				width: 1023.981px;
+				height: 890px;
+				background-color: rgba(0, 0, 0, 0.7);
+				position: relative;
+				top: 90px;
+				z-index: 0;
+				padding-top: 97px;
+			}
+
+			h1{
+				width: 218.222px;
+				height: 56px;
+				font-family: todo;
+				font-size: 60px;
+				color:rgb(8,132,244);
+				margin-left:115.111px;
+			}
+
+			p{
+				width:793.778px;
+				height:225.333px;
+				margin-top: 12px;
+				font-family: texto;
+				font-size: 16px;
+				color:white;
+			}
+
+			#separador1{
+				width:793.778px;
+				height: 2px;
+				margin-top: 25px;
+				background-color: rgba(60, 244, 34, 0.2);
+			}
+
+			#separador2{
+				width:793.778px;
+				height: 2px;
+				margin-top: 156px;
+				background-color: rgba(60, 244, 34, 0.2);
+			}
+
+			h2{
+				width: 518.222px;
+				height: 60px;
+				font-family: todo;
+				font-size: 50px;
+				color: rgb(8,132,244);
+				margin-left: 202px;
+				margin-top: 12px;
+				position: relative;
+				top: 17px;
+			}
+
+			#muro{
+				width: 793.778px;
+				height: 200.795px;
+				display: block;
+				background: url(../imagenes/muro.png) no-repeat center center;
+				background-size: cover;
+				margin-top: 25px;
+			}
+
+			#personaje1{
+				width: 103.111px;
+				height: 125px;
+				background: url(../imagenes/personaje1.png) no-repeat center center;
+				background-size: cover;
+				margin-top: 30px;
+				margin-left: 90px;
+			}
+
+			#personaje2{
+				width: 103.111px;
+				height: 125px;
+				background: url(../imagenes/personaje2.png) no-repeat center center;
+				background-size: cover;
+				margin-top: -131px;
+				margin-left: 568px;
+			}
+			/* -------- FIN ESTILOS pagina en comun ---------- */
